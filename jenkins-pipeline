@@ -4,6 +4,7 @@ pipeline {
         stage ("Hello world") {
             steps {
             echo "Hello world, from GIT-HUB!!!"   
+            echo "HIII"
         }
     }
  }
