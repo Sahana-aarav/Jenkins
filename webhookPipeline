@@ -5,6 +5,10 @@ pipeline {
             steps {
             echo "Hello world, from GIT-HUB!!!"          
         }
+         stage ("Print jenkins") {
+            steps {
+            echo "Hello world, from Jenkins!!"          
+        }
     }
  }
 }
